@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Header css file*/
+
+.header_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    border: 2px solid blue;
+}
+.logo_part{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo{
+    padding-right: 10px;
+}
+.text_logo{
+    font-size:25px;
+    font-weight: bold;
+}
+.logo_color{
+    color: rgb(241, 66, 159);
+}
+.menus{
+    display: flex;
+    list-style: none;
+    padding-bottom: 15px;
+
+}
+.menu{
+    padding-right: 20px;
+    cursor: pointer;
+   
+}
+
+/*Banner css file*/
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head1{
+    font-size: 40px;
+}
+.head2{
+    color:rgb(235, 79, 165);
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+.paragraph1{
+    font-size: 15px;
+}
+.btn1{
+    background-color: deeppink;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 0px;
+}
+.btn2{
+    background-color: rgb(54, 205, 235);
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 0px;
+}
+.banner1{
+    width: 500px;
+    padding-top: 50px;
+}
