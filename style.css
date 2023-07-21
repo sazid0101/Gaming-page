@@ -9,13 +9,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 15px;
-    border: 2px solid blue;
 }
 .logo_part{
     display: flex;
     align-items: center;
     cursor: pointer;
+    padding-bottom: 15px;
 }
 .logo{
     padding-right: 10px;
@@ -30,13 +29,24 @@
 .menus{
     display: flex;
     list-style: none;
-    padding-bottom: 15px;
+   
 
 }
 .menu{
     padding-right: 20px;
     cursor: pointer;
+    padding-top: 6px;
    
+}
+.head_btn{
+    background-color: rgb(234, 239, 238);
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0px;
+    text-align: center;
+    padding-top: 8px;
 }
 
 /*Banner css file*/
@@ -45,6 +55,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: rgb(241, 243, 246);
 }
 .head1{
     font-size: 40px;
@@ -123,4 +134,75 @@
 }
 .banner2{
     height: 200px;
+}
+/* Careers*/
+.banner4{
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(249, 32, 148);
+    padding-top: 100px;
+}
+.btn4{
+    background-color: rgb(245, 248, 248);
+    color:rgb(245, 132, 151) ;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 0px;
+}
+.career_img{
+    width: 700px;
+}
+
+/*icon part*/
+.icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.icon_img{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+/* footer*/
+.foot{
+    background-color: rgb(38, 38, 116);
+}
+.logo_part{
+    padding-top: 30px;
+}
+.foot_h4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 30px 5px;
+}
+.foot_contant{
+    padding-left: 50px;
+}
+.foot_h5{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+.foot_contant2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.foot_paragraph{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+/*CSS Media Query*/
+@media  and(max-width:576) {
+    .menus{
+        flex direction: column;
+    }
+    
 }
